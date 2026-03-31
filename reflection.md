@@ -7,6 +7,23 @@
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
 
+I created 4 classes - 
+1. User
+2. Pet
+3. Task
+4. Scheduler
+
+For user, you create user profile, generate a plan, and get a list of all tasks associated with the user
+
+For Pet, create_pet() and associate_task()
+
+For Tasks, I added methods to edit, add, and delete tasks
+
+Scheduler is the class responsible for taking the user information and task info across pets and creating a conflict-free schedule
+
+All of these classes have a unique identifier, user_id, pet_id, and task_id
+
+
 **b. Design changes**
 
 - Did your design change during implementation?
